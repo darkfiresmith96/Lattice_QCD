@@ -38,12 +38,12 @@ double end = 0;
  */
 const double mlambdab = 5.61951;
 const double mlambdac = 2.28646;
-const double GF = 1.1663787 * pow(10, -5);
+const double GF = 1.1663787 * pow(10, -5);  // Fermi constant
 const double hbar = 6.582119514 * pow(10,-25);
 const double mtau = 1.77682;
 const double mmu = 0.105658;
-const double PI = 3.14159265359;
-const double vbc = 0.0414;
+const double PI = 3.14159265359;  // Pi
+const double vbc = 0.0414;  // Cabibbo-Kobayashi-Maskawa (CKM) matrix element
 const double vcb = 0.0414;
 const double m1 = 5.6195;
 const double m2 = 2.28646;
