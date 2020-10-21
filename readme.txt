@@ -20,7 +20,16 @@ This program has no outside requirements
 ------------
 INSTALLATION
 ------------
-Download the executable and run as you would a normal program.
+Download the executable and run as you would a normal program. Note this only works on Windows systems
+For other systems download and compile the following source files:
+-main.c
+-Constant.c
+-Constant.h
+-File_Manipulate.c
+-File_Manipulate.h
+-Calculate.c
+-Calculate.h
+As of now a makefile has not been made, it will be in the near future for easy compilation.
 -------------
 CONFIGURATION
 -------------
@@ -37,6 +46,21 @@ FAQ
 BUGS
 ----
 
+-------
+License
+-------
+Lattice_QCD is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Lattice_QCD is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Lattice_QCD.  If not, see <https://www.gnu.org/licenses/>.
 -----------
 MAINTAINERS
 -----------
@@ -56,3 +80,8 @@ Thank you to the following for:
 	 Provided funding for first part of project
   *  Shippensburg University Summer Undergraduate Research Experiance (SURE)
 	Provided funding for second part of project
+--------------
+Project Status
+--------------
+A GUI Interface is currently under development.  The scope of the program is also currently being
+increased to solve other simmilar problems. 
